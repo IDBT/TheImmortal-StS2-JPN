@@ -1,0 +1,16 @@
+{
+  "MOKOUMOD-ESSENCE.description": "スターターレリックに蓄積する。[gold]燠[/gold]1につき、[gold]再燃[/gold]によるHP回復を[blue]5%[/blue]増加させる。",
+  "MOKOUMOD-ESSENCE.title": "燠",
+  "MOKOUMOD-NONLETHAL.description": "HPが[blue]1[/blue]未満にならないように、HPが減少する。",
+  "MOKOUMOD-NONLETHAL.title": "魂火",
+  "MOKOUMOD-IGNITE.description": "任意のキャラクター(自身を含む)が、[gold]燃焼[/gold] X 以上を持つ場合に発動する(発動可能なら[gold]金色[/gold]に輝く)。",
+  "MOKOUMOD-IGNITE.title": "点火(X)",
+  "MOKOUMOD-FURY.description": "このターンにあなたのHPが減少している場合に発動する。(発動可能なら[red]赤色[/red]に輝く).",
+  "MOKOUMOD-FURY.title": "赫怒",
+  "MOKOUMOD-EMBER.description": "HP [blue]50%[/blue] 以下か、この戦闘で[gold]再燃[/gold]を発動した場合に発動する(発動可能なら[purple]紫色[/purple]に輝く)。",
+  "MOKOUMOD-EMBER.title": "余燼",
+  "MOKOUMOD-FUEL.description": "[gold]プレイ不可[/gold]と[gold]保留[/gold]を有する特殊カードで、Xはその残量を示す。[gold]燃料[/gold]が[gold]手札[/gold]にあり、[gold]点火[/gold]、[red]赫怒[/red]、または [purple]余燼[/purple]カードをプレイするたび、[gold]燃料[/gold]の効果を発動させ、残量が[blue]1[/blue]減少する。[gold]燃料[/gold]の残量が[blue]0[/blue]になると、[gold]燃料[/gold]は[gold]廃棄[/gold]される。",
+  "MOKOUMOD-FUEL.title": "燃料(X)",
+  "MOKOUMOD-EXHUME.description": "あなたの[gold]廃棄の山[/gold]にあるカードを全て[gold]手札[/gold]に戻す。",
+  "MOKOUMOD-EXHUME.title": "回生"
+}

@@ -1,0 +1,7 @@
+{
+  "MOKOUMOD-VIGOROUS_ENCHANTMENT.title": "気炎",
+  "MOKOUMOD-VIGOROUS_ENCHANTMENT.extraCardText": "If you see this, plz report bug.",
+  "MOKOUMOD-VIGOROUS_ENCHANTMENT.attackText": "消費した覇気の半分を回復する。",
+  "MOKOUMOD-VIGOROUS_ENCHANTMENT.nonAttackText": "消費したエナジーの2倍の覇気を得る。",
+  "MOKOUMOD-VIGOROUS_ENCHANTMENT.description": "アタックへの[gold]エンチャント[/gold]：消費した[gold]覇気[/gold]の半分を回復する。 それ以外：消費したエナジーの2倍の[gold]気炎[/gold]を得る。"
+}
