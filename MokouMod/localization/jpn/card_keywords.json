@@ -11,6 +11,6 @@
   "MOKOUMOD-EMBER.title": "余燼",
   "MOKOUMOD-FUEL.description": "[gold]プレイ不可[/gold]と[gold]保留[/gold]を有する特殊カードで、Xはその残量を示す。[gold]燃料[/gold]が[gold]手札[/gold]にあり、[gold]点火[/gold]、[red]赫怒[/red]、または[purple]余燼[/purple]カードをプレイするたび、[gold]燃料[/gold]の効果を発動させ、残量が[blue]1[/blue]減少する。[gold]燃料[/gold]の残量が[blue]0[/blue]になると、[gold]燃料[/gold]は[gold]廃棄[/gold]される。",
   "MOKOUMOD-FUEL.title": "燃料(X)",
-  "MOKOUMOD-EXHUME.description": "あなたの[gold]廃棄の山[/gold]にあるカードを全て[gold]手札[/gold]に戻す。",
+  "MOKOUMOD-EXHUME.description": "あなたの[gold]廃棄の山[/gold]にあるこのカードを[gold]手札[/gold]に戻す。",
   "MOKOUMOD-EXHUME.title": "回生"
 }
