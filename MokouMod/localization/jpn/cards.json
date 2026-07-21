@@ -177,7 +177,7 @@
   "MOKOUMOD-OLIVE_BRANCH.artist": "pexel.com",
   "MOKOUMOD-VALIANT_HEART.description": "[gold]気炎[/gold]のアタックは消費した[gold]覇気[/gold]をすべて回復させる。\n[gold]気炎[/gold]をカード{Cards:diff()}枚に[gold]エンチャント[/gold]する。",
   "MOKOUMOD-VALIANT_HEART.title": "気炎万丈",
-  "MOKOUMOD-VALIANT_HEART.artist": "Aur0raSt4r",
+  "MOKOUMOD-VALIANT_HEART.artist": "ティカ",
   "MOKOUMOD-FLARE.description": "[gold]燃焼[/gold]{BurnPower:diff()}を得る。\n[gold]{Feathers:plural:{IfUpgraded:show:緋色の羽根+|緋色の羽根}|{IfUpgraded:show:緋色の羽根+|緋色の羽根}}[/gold]を{Feathers:diff()}枚[gold]手札[/gold]に加える。",
   "MOKOUMOD-FLARE.title": "フレア",
   "MOKOUMOD-FLARE.artist": "ちべ",
