@@ -111,7 +111,7 @@
   "MOKOUMOD-TAUNT_MOKOU.description": "{Block:diff()}[gold]ブロック[/gold]得る。\n敵はこのターン [gold]筋力[/gold]{TempStrength:diff()}を 得る。\n[red]赫怒[/red]: 敵は [gold]筋力[/gold]{StrengthPower:diff()}を 失う。",
   "MOKOUMOD-TAUNT_MOKOU.title": "嘲りの遊戯",
   "MOKOUMOD-TAUNT_MOKOU.artist": "白色灯",
-  "MOKOUMOD-WARM_UP.description": "[gold]覇気[/gold]{VigorPower:diff()}Xを 得る。\nX枚のカードに [gold]気炎[/gold]を [gold]エンチャント[/gold]する。\n[gold]点火[/gold]({Ignite:diff()}) か [red]赫怒[/red]: このカードが消費した{Energy:energyIcons()}を 払い戻す。",
+  "MOKOUMOD-WARM_UP.description": "[gold]覇気[/gold]{VigorPower:diff()}Xを 得る。\nX枚のカードに [gold]気炎[/gold]を [gold]エンチャント[/gold]する。\n[gold]点火[/gold]({Ignite:diff()}) か [red]赫怒[/red]: このカードが消費した{Energy:diff()}{energyPrefix:energyIcons(1)}を 払い戻す。",
   "MOKOUMOD-WARM_UP.title": "ウォーム・アップ",
   "MOKOUMOD-WARM_UP.artist": "ことりばこ",
   "MOKOUMOD-WING_BLAST.description": "敵全体に 2回{Damage:diff()}ダメージを 与える。\n[red]赫怒[/red] か [purple]余燼[/purple]: 次のターン、{Energy:energyIcons()}を得る。",

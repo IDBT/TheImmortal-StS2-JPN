@@ -111,7 +111,7 @@
   "MOKOUMOD-TAUNT_MOKOU.description": "Gain {Block:diff()} [gold]Block[/gold].\nEnemy gains {TempStrength:diff()} [gold]Strength[/gold] this turn.\n[red]Fury[/red]: Enemy loses {StrengthPower:diff()} [gold]Strength[/gold].",
   "MOKOUMOD-TAUNT_MOKOU.title": "Taunt",
   "MOKOUMOD-TAUNT_MOKOU.artist": "白色灯",
-  "MOKOUMOD-WARM_UP.description": "Gain {VigorPower:diff()}X [gold]Vigor[/gold].\n[gold]Enchant[/gold] X cards with [gold]Vigorous[/gold].\n[gold]Ignite[/gold]({Ignite:diff()}) or [red]Fury[/red]: Refund {Energy:energyIcons()} that this card spent.",
+  "MOKOUMOD-WARM_UP.description": "Gain {VigorPower:diff()}X [gold]Vigor[/gold].\n[gold]Enchant[/gold] X cards with [gold]Vigorous[/gold].\n[gold]Ignite[/gold]({Ignite:diff()}) or [red]Fury[/red]: Refund {Energy:diff()} {energyPrefix:energyIcons(1)} that this card spent.",
   "MOKOUMOD-WARM_UP.title": "Warm Up",
   "MOKOUMOD-WARM_UP.artist": "ことりばこ",
   "MOKOUMOD-WING_BLAST.description": "Deal {Damage:diff()} damage to ALL enemies twice.\n[red]Fury[/red] or [purple]Ember[/purple]: Next turn, gain {Energy:energyIcons()}.",

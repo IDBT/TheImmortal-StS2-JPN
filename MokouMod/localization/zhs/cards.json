@@ -111,7 +111,7 @@
   "MOKOUMOD-TAUNT_MOKOU.description": "获得{Block:diff()}点[gold]格挡[/gold]。\n敌人在本回合获得{TempStrength:diff()}点[gold]力量[/gold]。\n[red]怒火[/red]：敌人失去{StrengthPower:diff()}点[gold]力量[/gold]。",
   "MOKOUMOD-TAUNT_MOKOU.title": "挑衅",
   "MOKOUMOD-TAUNT_MOKOU.artist": "白色灯",
-  "MOKOUMOD-WARM_UP.description": "获得{VigorPower:diff()}X点[gold]活力[/gold]。\n为X张牌[gold]附魔[/gold]：[gold]活力盎然[/gold]。\n[gold]点燃[/gold]({Ignite:diff()})或[red]怒火[/red]：返还此牌花费的{Energy:energyIcons()}。",
+  "MOKOUMOD-WARM_UP.description": "获得{VigorPower:diff()}X点[gold]活力[/gold]。\n为X张牌[gold]附魔[/gold]：[gold]活力盎然[/gold]。\n[gold]点燃[/gold]({Ignite:diff()})或[red]怒火[/red]：返还此牌花费的{Energy:diff()}{energyPrefix:energyIcons(1)}。",
   "MOKOUMOD-WARM_UP.title": "热身",
   "MOKOUMOD-WARM_UP.artist": "ことりばこ",
   "MOKOUMOD-WING_BLAST.description": "对所有敌人造成{Damage:diff()}点伤害两次。\n[red]怒火[/red]或[purple]燃烬[/purple]：下回合获得{Energy:energyIcons()}。",
