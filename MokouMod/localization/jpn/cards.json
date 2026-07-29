@@ -296,7 +296,7 @@
   "MOKOUMOD-HELLFIRE.description": "[gold]燃料[/gold]({Durability:diff()})\n[gold]焼滅[/gold]:[gold]獄炎[/gold]{HellfirePower:diff()}を得る。",
   "MOKOUMOD-HELLFIRE.title": "獄炎",
   "MOKOUMOD-HELLFIRE.artist": "Jake Donaldson",
-  "MOKOUMOD-HONEST_MANS_DEATH.description": "{Damage:diff()}ダメージを与える。\n[gold]烙印[/gold]{MarkOfSinPower:diff()}を与える。",
+  "MOKOUMOD-HONEST_MANS_DEATH.description": "{Damage:diff()}ダメージを与える。\n[gold]咎人の烙印[/gold]{MarkOfSinPower:diff()}を与える。",
   "MOKOUMOD-HONEST_MANS_DEATH.title": "滅罪「正直者の死」",
   "MOKOUMOD-HONEST_MANS_DEATH.artist": "ROYL",
   "MOKOUMOD-NIHIL.description": "[gold]焼滅[/gold]:[gold]捨て札[/gold]に[gold]是色[/gold]を1枚加える。",
