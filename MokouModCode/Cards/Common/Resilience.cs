@@ -4,6 +4,7 @@ using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models;
+using MegaCrit.Sts2.Core.Models.Powers;
 using MegaCrit.Sts2.Core.ValueProps;
 using MokouMod.MokouModCode.Enchantments;
 using MokouMod.MokouModCode.Scripts;
@@ -15,6 +16,7 @@ public class Resilience : MokouModCard
     public Resilience() : base(1, CardType.Skill, CardRarity.Common, TargetType.Self)
     {
         WithVars(new HpLossVar(1));
+        WithPower<VigorPower>(1, 1);
         WithKeywords(MokouModKeywords.Nonlethal, CardKeyword.Exhaust);
         WithTip(typeof(VigorousEnchantment));
     }
@@ -23,6 +25,7 @@ public class Resilience : MokouModCard
     {
         var nonLethal = CalculateNonLethal(Owner.Creature, DynamicVars.HpLoss.BaseValue);
         await CreatureCmd.Damage(choiceContext, Owner.Creature, nonLethal, ValueProp.Unblockable | ValueProp.Unpowered | ValueProp.Move, this, cardPlay);
+        await PowerCmd.Apply<VigorPower>(choiceContext, Owner.Creature, DynamicVars["VigorPower"].BaseValue, Owner.Creature, this);
         var enchantment = ModelDb.Enchantment<VigorousEnchantment>().ToMutable();
         var card =
             (await CardSelectCmd.FromSimpleGrid(

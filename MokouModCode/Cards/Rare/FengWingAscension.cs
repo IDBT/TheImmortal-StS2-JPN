@@ -17,8 +17,8 @@ public class FengWingAscension : MokouModCard
 {
     public FengWingAscension() : base(3, CardType.Attack, CardRarity.Rare, TargetType.AnyEnemy)
     {
-        WithCalculatedDamage(12, 3, (card, _) => (int)Math.Floor(PileType.Exhaust.GetPile(card.Owner).Cards.Count(c => c is Feather or ThousandFeathersAtOnce) * 0.5), ValueProp.Move, 3, 1);
-        WithPower<BurnPower>(12, 3);
+        WithCalculatedDamage(12, 3, (card, _) => (int)Math.Floor(PileType.Exhaust.GetPile(card.Owner).Cards.Count(c => c is Feather or ThousandFeathersAtOnce) * 0.5), ValueProp.Move, 4, 1);
+        WithPower<BurnPower>(12, 4);
     }
 
     public override Character.MokouMod.Animation Anim => Character.MokouMod.Animation.AttackAirKick;

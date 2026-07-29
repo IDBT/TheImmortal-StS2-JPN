@@ -27,7 +27,7 @@ public class TrueRegenPotion : MokouModPotion
 
     protected override async Task OnUse(PlayerChoiceContext choiceContext, Creature? target)
     {
-        var nonLethal = CalculateNonLethal(Owner.Creature, DynamicVars.HpLoss.BaseValue);
+        var nonLethal = CalculateNonLethal(target, DynamicVars.HpLoss.BaseValue);
         await CreatureCmd.Damage(choiceContext, target, nonLethal, ValueProp.Unblockable | ValueProp.Unpowered | ValueProp.Move, Owner.Creature);
         await PowerCmd.Apply<RegenPower>(choiceContext, target, DynamicVars["RegenPower"].BaseValue, Owner.Creature, null);
     }

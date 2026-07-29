@@ -68,9 +68,8 @@ public abstract class MokouModCard : ConstructedCardModel
 
         // 3. Trigger ONLY the fuel cards that were present initially and are still validly in hand
         if (IgniteActive || FuryActive || EmberActive)
-            foreach (var fuelCard in fuelCardsToTrigger)
-                if (PileType.Hand.GetPile(player).Cards.Contains(fuelCard))
-                    await fuelCard.TriggerFuel(player);
+            foreach (var fuelCard in fuelCardsToTrigger.Where(fuelCard => PileType.Hand.GetPile(player).Cards.Contains(fuelCard)))
+                await fuelCard.TriggerFuel(player);
 
         IgniteActive = false;
         FuryActive = false;

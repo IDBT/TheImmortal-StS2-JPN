@@ -15,11 +15,11 @@ namespace MokouMod.MokouModCode.Cards.Rare;
 
 public class BlazingBambooTube : MokouModCard
 {
-    public BlazingBambooTube() : base(2, CardType.Attack, CardRarity.Rare, TargetType.AnyEnemy)
+    public BlazingBambooTube() : base(1, CardType.Attack, CardRarity.Rare, TargetType.AnyEnemy)
     {
         WithVars(
-            new CalculationBaseVar(16M),
-            new ExtraDamageVar(4M),
+            new CalculationBaseVar(10M),
+            new ExtraDamageVar(5M),
             new CalculatedDamageVar(ValueProp.Move)
                 .WithMultiplier((Func<CardModel, Creature?, decimal>)((card, _) =>
                 {
@@ -43,7 +43,6 @@ public class BlazingBambooTube : MokouModCard
 
     protected override void OnUpgrade()
     {
-        DynamicVars.CalculationBase.UpgradeValueBy(4M);
-        DynamicVars.ExtraDamage.UpgradeValueBy(1M);
+        DynamicVars.ExtraDamage.UpgradeValueBy(2M);
     }
 }

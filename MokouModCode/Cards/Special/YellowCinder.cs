@@ -25,8 +25,7 @@ public class YellowCinder : MokouModFuelCard
         bool causedByEthereal)
     {
         if (card == this)
-            await PowerCmd.Apply<VigorPower>(choiceContext, Owner.Creature, DynamicVars["VigorPower"].BaseValue,
-                Owner.Creature, this);
+            await PowerCmd.Apply<VigorPower>(choiceContext, Owner.Creature, DynamicVars["VigorPower"].BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()

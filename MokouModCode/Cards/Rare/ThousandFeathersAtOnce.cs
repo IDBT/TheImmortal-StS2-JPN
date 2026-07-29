@@ -21,12 +21,13 @@ public class ThousandFeathersAtOnce : MokouModCard
     private bool HasHeatwave => IsMutable && Owner != null && Owner.Creature.HasPower<HeatwavePower>();
     private int _repeatIncrement = 0;
 
-    public ThousandFeathersAtOnce() : base(2, CardType.Skill, CardRarity.Rare, TargetType.AnyEnemy)
+    public ThousandFeathersAtOnce() : base(3, CardType.Skill, CardRarity.Rare, TargetType.AnyEnemy)
     {
-        WithPower<BurnPower>(2, 1);
+        WithPower<BurnPower>(2);
         WithCalculatedVar("Repeat", 1, (card, _) => card is ThousandFeathersAtOnce thousand ? thousand._repeatIncrement : 0);
         WithKeywords(CardKeyword.Exhaust);
         WithTip(new TooltipSource(card => new HoverTip(new LocString("cards", Id.Entry + ".extraTipTitle"), new LocString("cards", Id.Entry + ".extraTipDescription"))));
+        WithCostUpgradeBy(-1);
     }
 
     public override CardMultiplayerConstraint MultiplayerConstraint => CardMultiplayerConstraint.MultiplayerOnly;

@@ -1,10 +1,10 @@
 {
-  "MOKOUMOD-TRUE_FIRE_POTION.description": "[gold]燃焼[/gold][blue]{BurnPower}[/blue]を 与える。",
+  "MOKOUMOD-TRUE_FIRE_POTION.description": "[gold]燃焼[/gold][blue]{BurnPower}[/blue]を与える。",
   "MOKOUMOD-TRUE_FIRE_POTION.title": "真焔の霊薬",
-  "MOKOUMOD-BOTTLED_VIGOR.description": "[gold]覇気[/gold][blue]{VigorPower}[/blue]を得る。 [blue]{Cards}[/blue]枚のカードに [gold]気炎[/gold]を [gold]エンチャント[/gold]する。",
+  "MOKOUMOD-BOTTLED_VIGOR.description": "[gold]覇気[/gold][blue]{VigorPower}[/blue]を得る。[blue]{Cards}[/blue]枚のカードに[gold]気炎[/gold]を[gold]エンチャント[/gold]する。",
   "MOKOUMOD-BOTTLED_VIGOR.title": "瓶詰めの覇気",
-  "MOKOUMOD-TRUE_REGEN_POTION.description": "[gold]魂炎l[/gold] [blue]{HpLoss:diff()}[/blue]HPを 失う。 [gold]再生[/gold][green]{RegenPower:diff()}[/green]を得る。",
+  "MOKOUMOD-TRUE_REGEN_POTION.description": "[gold]魂炎l[/gold][blue]{HpLoss:diff()}[/blue]HPを失う。[gold]再生[/gold][green]{RegenPower:diff()}[/green]を得る。",
   "MOKOUMOD-TRUE_REGEN_POTION.title": "蘇生の霊薬",
-  "MOKOUMOD-HOURAI_ELIXIR.description": "[gold]燠[/gold][blue]{Essence}[/blue] と [gold]再燃[/gold][blue]{RekindlePower}[/blue] を得る。",
+  "MOKOUMOD-HOURAI_ELIXIR.description": "[gold]燠[/gold][blue]{Essence}[/blue]と[gold]再燃[/gold][blue]{RekindlePower}[/blue]を得る。",
   "MOKOUMOD-HOURAI_ELIXIR.title": "蓬莱の薬"
 }
