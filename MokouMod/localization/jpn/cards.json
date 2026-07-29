@@ -95,7 +95,7 @@
   "MOKOUMOD-TRINITY_SHIELD.artist": "まかろに",
   "MOKOUMOD-DISINTEGRATE.description": "敵の[gold]アーティファクト[/gold]をすべて取り除く。[gold]燃焼[/gold]{BurnPower:diff()}を与える。\n[red]赫怒[/red]:[gold]弱体[/gold]{VulnerablePower:diff()}を与える。",
   "MOKOUMOD-DISINTEGRATE.title": "爆砕",
-  "MOKOUMOD-DISINTEGRATE.artist": "Blanc.ブラン",
+  "MOKOUMOD-DISINTEGRATE.artist": "Blanc. ブラン",
   "MOKOUMOD-FLAME_DANCE.description": "[gold]緋色の羽根[/gold]を{Feathers:diff()}枚[gold]手札[/gold]に加える。",
   "MOKOUMOD-FLAME_DANCE.title": "火燕舞踏",
   "MOKOUMOD-FLAME_DANCE.artist": "Aur0raSt4r",
